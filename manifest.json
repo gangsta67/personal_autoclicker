@@ -1,15 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "iliasLogin",
-  "version": "1.2",
-  "description": "Clicks through the ilias login pages automatically",
+  "name": "personal_autoclicker",
+  "version": "1.0",
+  "description": "autoclicker for web pages for personal use",
   "icons": {
-    "48": "icons/48pxIliasLogo.png"
+    "48": "icons/48px_mousepointer.jpg"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.ilias.studium.kit.edu/login*", "*://*.idp.scc.kit.edu/idp/profile*", "*://*.campus.studium.kit.edu/*"],
-      "js": ["iliasLogin.js"]
+      "matches": [
+        "https://1337x.to/",
+        "https://www.google.com/search?client=ubuntu&channel=fs&q=il&ie=utf-8&oe=utf-8",
+        "https://www.google.com/search?client=ubuntu&channel=fs&q=fm&ie=utf-8&oe=utf-8",
+        "https://ma-vv.math.kit.edu/sso/select"
+      ],
+      "js": [
+        "personal_autoclicker.js"
+      ]
     }
   ]
 }
