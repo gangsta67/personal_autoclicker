@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "personal_autoclicker",
-  "version": "1.0",
+  "version": "1.1",
   "description": "autoclicker for web pages for personal use",
   "icons": {
     "48": "icons/48px_mousepointer.jpg"
