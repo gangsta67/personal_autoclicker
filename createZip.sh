@@ -1,1 +1,1 @@
-zip -r Personal_autoclicker.zip icons/ *.json *.js
+zip -r --store Personal_autoclicker.zip icons/ *.json *.js

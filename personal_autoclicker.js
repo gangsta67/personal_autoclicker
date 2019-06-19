@@ -11,6 +11,9 @@ switch (window.location.href) {
     // click Vorlesung wählen button
     clickButtonByName("submit");
     break;
+  case "https://www.netflix.com/browse":
+    clickButtonByClass("profile-icon", 2);
+    break;
 }
 
 
@@ -18,12 +21,12 @@ function clickButtonById(id) {
   document.getElementById(id).click();
 }
 
-function clickButtonByClass(className) {
-  document.getElementsByClassName(className)[0].click();
+function clickButtonByClass(className, index = 0) {
+  document.getElementsByClassName(className)[index].click();
 }
 
-function clickButtonByName(name) {
-  document.getElementsByName(name)[0].click();
+function clickButtonByName(name, index = 0) {
+  document.getElementsByName(name)[index].click();
 }
 
 function selectOption(OptionName, NewValue) {
