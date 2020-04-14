@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "personal_autoclicker",
-  "version": "1.5",
+  "version": "1.6",
   "description": "autoclicker for web pages for personal use",
   "icons": {
     "48": "icons/48px_mousepointer.jpg"
@@ -15,7 +15,6 @@
     {
       "matches": [
         "https://1337x.to/",
-        "https://ma-vv.math.kit.edu/sso/select",
         "https://www.netflix.com/browse"
       ],
       "js": [

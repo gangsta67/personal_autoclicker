@@ -5,12 +5,6 @@ switch (window.location.href) {
   case "https://1337x.to/":
     window.location.assign("https://1337x.to/home/");
     break;
-  case "https://ma-vv.math.kit.edu/sso/select":
-    // select numerische Mathematik
-    selectOption("id", 208);
-    // click Vorlesung wählen button
-    clickButtonByName("submit");
-    break;
   case "https://www.netflix.com/browse":
     clickButtonByClass("profile-icon", 2);
     break;
