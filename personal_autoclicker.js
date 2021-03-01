@@ -8,14 +8,22 @@ switch (window.location.href) {
   case "https://www.netflix.com/browse":
     clickButtonByClass("profile-icon", 2);
     break;
+  case "https://smartbroker.de/":
+    clickButtonById("login");
+    break;
+  case "https://b2b.dab-bank.de/smartbroker/":
+    clickButtonById("login_bt");
+    break;
 }
 
 
 function clickButtonById(id) {
+  console.log("clicking Button with id: ", id);
   document.getElementById(id).click();
 }
 
 function clickButtonByClass(className, index = 0) {
+  console.log("clicking Button with class name: ", className, "\nand index: ", index);
   document.getElementsByClassName(className)[index].click();
 }
 
