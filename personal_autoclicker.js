@@ -9,7 +9,7 @@ switch (window.location.href) {
     clickButtonByClass("profile-icon", 2);
     break;
   case "https://smartbroker.de/":
-    clickButtonById("login");
+    window.location.assign("https://b2b.dab-bank.de/smartbroker/");
     break;
   case "https://b2b.dab-bank.de/smartbroker/":
     clickButtonById("login_bt");
