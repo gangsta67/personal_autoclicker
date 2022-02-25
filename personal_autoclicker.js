@@ -8,13 +8,17 @@ switch (window.location.href) {
   case "https://www.netflix.com/browse":
     clickButtonByClass("profile-icon", 2);
     break;
-  case "https://smartbroker.de/":
-    window.location.assign("https://b2b.dab-bank.de/smartbroker/");
+  case "https://simplenote.com/":
+    window.location.assign("https://app.simplenote.com/");
     break;
-  case "https://b2b.dab-bank.de/smartbroker/":
-    clickButtonById("login_bt");
+  case "https://de.scalable.capital/en":
+    window.location.assign("https://de.scalable.capital/en/login");
+    break;
+  case "https://de.scalable.capital/en/login":
+    clickButtonByClass("btn btn-primary");
     break;
 }
+
 
 
 function clickButtonById(id) {

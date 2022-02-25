@@ -16,8 +16,8 @@
       "matches": [
         "https://1337x.to/",
         "https://www.netflix.com/browse",
-        "https://smartbroker.de/",
-        "https://b2b.dab-bank.de/smartbroker/"
+        "https://simplenote.com/",
+        "https://de.scalable.capital/*"
       ],
       "js": [
         "personal_autoclicker.js"
