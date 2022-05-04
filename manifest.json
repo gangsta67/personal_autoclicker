@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 2.1,
   "name": "personal_autoclicker",
   "version": "1.9",
   "description": "autoclicker for web pages for personal use",
@@ -17,6 +17,7 @@
         "https://1337x.to/",
         "https://www.netflix.com/browse",
         "https://simplenote.com/",
+        "https://app.simplenote.com/login/",
         "https://de.scalable.capital/*"
       ],
       "js": [
